@@ -1,0 +1,13 @@
+- name: "Installing Nodejs"
+    shell: "yum install nodejs -y"
+- name: "Installing npm"
+    shell: "yum install npm -y"
+- name: "copying the Challenge3 directory"
+    copy:
+       src: "/root/Assignment/challenge3"
+       dest: "/root/"
+    ignore_errors: yes
+- name: "moving to the workspace"
+    shell: "cd /root/challenge3/"
+- name: "Installing required packages using npm"
+    shell: "npm i"

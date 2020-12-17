@@ -1,0 +1,4 @@
+- hosts: "localhost"
+  roles:
+  - name: "nodejs role"
+    role: "/root/Assignment/nodejs"
