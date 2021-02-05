@@ -10,7 +10,7 @@ Ansible has taken a lead role in doing the configuration management in the autom
 In this article, all the codes and concepts explained in detailed. So sit at the back with one cup of coffee and read bit by bit.
 So, lets start to build this automation. First we have to install terraform from below link.
 
-[Install Terraform](https://www.terraform.io/downloads.html)
+[`Install Terraform`](https://www.terraform.io/downloads.html)
 
 Now, you need to set the path in the environment variables. After setting the environment variables check the terraform version. you can use `terraform -version` to check the version of terraform.
 ![Terraform Apply](https://miro.medium.com/max/625/1*thK7hLyvQwUzmN2YFDMPmA.png)
@@ -209,7 +209,7 @@ Ansible uses variables to manage differences between systems. With Ansible, you 
 
 ## Ansible Installation In below Slides
 
-[Ansible Installation](https://docs.google.com/presentation/d/1k9v81cVfb96Vxq2ETAg5H7wUq4CXgxJnN74VERNhpX8/edit)
+[`Ansible Installation`](https://docs.google.com/presentation/d/1k9v81cVfb96Vxq2ETAg5H7wUq4CXgxJnN74VERNhpX8/edit)
 ## Dynamic Inventory for AWS
 Dynamic inventory is an ansible plugin that makes an API call to AWS to get the instance information in the run time. It gives you the ec2 instance details dynamically to manage the AWS infrastructure.
 Create a directory then add that directory in the configuration file of ansible using `mkdir  Dynamic_Inventory_Data_Base`. You can give any name to the directory.
